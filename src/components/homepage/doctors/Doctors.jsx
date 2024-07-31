@@ -31,9 +31,7 @@ const Doctors = () => {
                 <div className="font-semibold text-lg text-secondary mt-3">
                   {d.post}
                 </div>
-                <div className="font-semibold text-lg text-secondary mt-3">
-                  {d.post}
-                </div>
+                <div className="font-semibold text-md mt-3">{d.education}</div>
               </div>
             </div>
           </div>
