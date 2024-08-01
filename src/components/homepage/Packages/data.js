@@ -2,6 +2,7 @@ export const data = [
   {
     id: 1,
     name: "HVD Essential",
+    url: "hvd-essential",
     image: "/packages/pack1.webp",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -18,6 +19,7 @@ export const data = [
   {
     id: 2,
     name: "HVD Advance",
+    url: "hvd-advance",
     image: "/packages/pack2.webp",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -35,6 +37,7 @@ export const data = [
   {
     id: 3,
     name: "HVD Platinum",
+    url: "hvd-platinum",
     image: "/packages/pack6.png",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -53,6 +56,7 @@ export const data = [
   {
     id: 4,
     name: "HVD EXCLUSIVE (MALE)",
+    url: "hvd-exclusive-male",
     image: "/packages/pack11.jpg",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -73,6 +77,7 @@ export const data = [
   {
     id: 5,
     name: "HVD EXCLUSIVE (FEMALE)",
+    url: "hvd-exclusive-female",
     image: "/packages/pack9.png",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -92,6 +97,7 @@ export const data = [
   {
     id: 6,
     name: "HVD AYUSHMAN",
+    url: "hvd-ayushman",
     image: "/packages/pack12.png",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -113,6 +119,7 @@ export const data = [
   {
     id: 7,
     name: "HVD COMPREHENSIVE ( SENIOR CITIZEN MALE)",
+    url: "hvd-comprehensive-senior-citizen-male",
     image: "/packages/pack7.png",
     description: [
       "Complete Blood Count: - Hemoglobin, TLC, DLC, RBC Count, PCV, MCV, MCH, MCHC, Platelet Count, RDW",
@@ -136,6 +143,7 @@ export const data = [
   {
     id: 8,
     name: "HVD COMPREHENSIVE ( SENIOR CITIZEN FEMALE)",
+    url: "hvd-comprehensive-senior-citizen-female",
     image: "/packages/pack5.webp",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -158,6 +166,7 @@ export const data = [
   {
     id: 9,
     name: "HVD CARDIAC HEALTH PACKAGE",
+    url: "hvd-cardiac",
     image: "/packages/pack3.webp",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",
@@ -177,6 +186,7 @@ export const data = [
   {
     id: 10,
     name: "HVD FEVER PACKAGE",
+    url: "hvd-fever",
     image: "/packages/pack8.png",
     description: [
       "Complete Blood Count: Hemoglobin, TLC, DLC (Neutrophils, Lymphocytes, Basophils, Monocytes, Eosinophils), RBC count, PCV, MCV, MCH, MCHC, Platelet count, RDW",

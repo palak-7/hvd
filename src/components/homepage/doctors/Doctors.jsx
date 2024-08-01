@@ -14,7 +14,7 @@ const Doctors = () => {
           Meet Our Doctors
         </h2>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="lg:grid grid-cols-3">
         {data.map((d) => (
           <div key={d.id} className="flex justify-center">
             <div className="border m-10 rounded-md p-10 bg-secondary/5 hover:-translate-y-2 transform transition duration-300 hover:shadow-xl">

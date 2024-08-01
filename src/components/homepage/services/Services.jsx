@@ -23,12 +23,12 @@ const Services = () => {
             Our Services
           </h2>
         </div>
-        <div className="grid grid-cols-2 grid-rows-3 gap-5 pb-10">
+        <div className="lg:grid grid-cols-2 grid-rows-3 gap-5 pb-10">
           {servicesdata.map((s) => (
             <Link
               href="/"
               key={s.id}
-              className="bg-white hover:scale-105 transform duration-300 flex mx-20 shadow-lg shadow-gray-400 rounded-lg border-black border-2"
+              className="bg-white hover:scale-105 transform duration-300 flex lg:mx-20 mx-2 mb-3 lg:mb-0 shadow-lg shadow-gray-400 rounded-lg border-black border-2"
             >
               <Image
                 src={`/services/${s.image}`}

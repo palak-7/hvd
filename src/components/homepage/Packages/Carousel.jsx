@@ -34,7 +34,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="mx-10">
+    <div className="mx-5 lg:mx-10">
       <Slider {...settings}>
         {data?.map((d) => (
           <div className="p-5" key={d.id}>

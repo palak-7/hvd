@@ -1,11 +1,20 @@
-const PricingBox = ({ price, packageName, subtitle, children, cancelled }) => {
+import Link from "next/link";
+
+const PricingBox = ({
+  price,
+  packageName,
+  subtitle,
+  children,
+  cancelled,
+  url,
+}) => {
   return (
     <div className="w-full">
       <div className="relative z-10 rounded-sm bg-white px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
         <div className="items-center">
           <h3 className="price mb-2 text-[32px] font-bold text-black dark:text-white">
             <div>{children}</div>
-            <h4 className="uppercase leading-normal my-2 text-2xl text-center text-primary font-bold h-20">
+            <h4 className="uppercase leading-normal lg:my-2 mb-14 text-2xl text-center text-primary font-bold h-20">
               {packageName}
             </h4>
             <div className="flex text-2xl justify-center">
@@ -21,9 +30,12 @@ const PricingBox = ({ price, packageName, subtitle, children, cancelled }) => {
         </div>
         <p className="mb-7 text-base text-body-color">{subtitle}</p>
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-          <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+          <Link
+            href={`/health-package/${url}`}
+            className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
+          >
             View Details
-          </button>
+          </Link>
         </div>
 
         <div className="absolute bottom-0 right-0 z-[-1]">
