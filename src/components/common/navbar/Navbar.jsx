@@ -50,7 +50,7 @@ const Navbar = () => {
       <Top />
       <header className="flex justify-around">
         <div className="container mx-auto flex items-center justify-between">
-          <div className="flex items-center w-full justify-between lg:w-auto">
+          <div className="flex items-center w-full justify-between lg:w-auto mx-5">
             <Link
               href="/"
               className={`header-logo block lg:ml-0 ml-2 ${
